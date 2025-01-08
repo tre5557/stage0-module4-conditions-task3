@@ -7,7 +7,7 @@ public class SalaryCalculator {
             System.out.println("wrong input!");
         }
         else if (10000 > salary) {
-            salaryArterTaxes = salary * 0.85;
+            salaryArterTaxes = salary * 0.805;
             System.out.println(salaryArterTaxes);
         }
         else if (salary> 10000 & salary <20000){
